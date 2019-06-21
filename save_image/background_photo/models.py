@@ -1,12 +1,10 @@
 from __future__ import unicode_literals
 from django.db import models
-from django_cleanup import cleanup
 from smartfields import fields
 from smartfields.dependencies import FileDependency
 from smartfields.processors import ImageProcessor
 
 
-@cleanup.ignore
 class Mymodel(models.Model):
     width = 300
     height = 300

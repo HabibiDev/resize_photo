@@ -40,7 +40,6 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'background_photo',
     'smartfields',
-    'django_cleanup',
 ]
 
 MIDDLEWARE_CLASSES = [
